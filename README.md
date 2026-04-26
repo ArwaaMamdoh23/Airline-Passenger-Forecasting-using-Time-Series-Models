@@ -1,7 +1,7 @@
 # Airline Passenger Forecasting using Time Series Models
 
 ## Overview
-This project forecasts airline passenger demand using multiple time series models and compares their performance.
+Forecasting airline passenger demand using multiple time series models and comparing their performance.
 
 ---
 
@@ -15,13 +15,13 @@ This project forecasts airline passenger demand using multiple time series model
 ---
 
 ## Dataset
-Monthly airline passenger data including domestic, international, and total passengers.
+Monthly airline passenger data (domestic, international, total).
 
 ---
 
 ## Workflow
 - Data cleaning and preprocessing  
-- Date conversion and time indexing  
+- Time series formatting  
 - Outlier detection  
 - Lag feature creation  
 - Model training and forecasting  
@@ -30,18 +30,18 @@ Monthly airline passenger data including domestic, international, and total pass
 
 ## Evaluation
 - Mean Absolute Error (MAE)  
-- Visual comparison of actual vs predicted values  
-- Model performance comparison  
+- Visual comparison of predictions  
+- Model comparison  
 
 ---
 
 ## Results
-- SARIMAX and Prophet performed best  
-- ARIMA showed strong baseline performance  
-- SMA performed weakest  
+- Prophet and SARIMAX performed best  
+- ARIMA performed well  
+- Exponential Smoothing was moderate  
+- SMA was weakest  
 
 ---
-
 
 ## Author
 Arwaa Mamdoh
